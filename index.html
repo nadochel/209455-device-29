@@ -1,130 +1,272 @@
-﻿<!DOCTYPE html>
-<html lang="ru">
+<!DOCTYPE html>
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body>
-<header>
-	<nav>
-		<a>
-			<img src="img/-e-logo.jpg" width="163" height="35"> 
+  <body class="page-body">
 
-		</a>
 
-		<ul>
-			<li><a href="blank.html">каталог товаров</a></li>
-			<li><a href="blank.html">доставка</a></li>
-			<li><a href="blank.html">гарантия</a></li>
-			<li><a href="blank.html">контакты</a></li>
-		</ul>
-		<a href="blank.html">Поиск по сайту</a>
-		<a href="blank.html">Войти</a>
-		<a href="blank.html">Сравнить</a>
-		<a href="blank.html">Корзина</a>
-	</nav>
-</header>
+		<!---------HEADER----------->
+			<header class="header">
+				<nav class="nav">
+					<a class="header-logo">
+						<img src="img/-e-logo.jpg"  width="163" height="35" alt="logo"> 
 
-<main>
-	<h1>Делай селфи,  
-	как Бен Стиллер! </h1>
-	<p>Самая длинная палка для селфи доступна в нашем магазине. <br>
-	Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-	<a href="blank.html">подробнее</a>
-	<div>
-		<h2>8,5 м</h2>
-		<p>Длина палки</p>
-	</div>
-	<div>
-		<h2>5 кг</h2>
-		<p>Вес палки</p>
-	</div>
-	<div>
-		<h2>Карбон</h2>
-		<p>Материал</p>
-	</div>
-	
-	<section>
-		<ul>
-			<li><a href="blank.html">Виртуальная 
-			реальность</a></li>
-			<li><a href="blank.html">Моноподы 
-			для селфи</a></li>
-			<li><a href="blank.html">Экшн-камеры</a></li>
-			<li><a href="blank.html">Фитнес-браслеты</a></li>
-			<li><a href="blank.html">Умные часы</a></li>
-			<li><a href="blank.html">Квадрокоптеры</a></li>
-		</ul>
-	</section>
+					</a>
+						<input type="search" name="search" value="Поиск по сайту" class="search">
+						
+						
+					<ul class="sait-nav2">	
+						<li><a class="login-link" href="#">Войти</a></li>	
+					    <li><a href="#">Сравнить</a></li>
+						<li><a href="#">Корзина</a></li>
+					</ul>	
 
-	<section>
-		<ul>
-			<li><a href="">доставка</a></li>
-			<li><a href="blank.html">гарантия</a></li>
-			<li><a href="blank.html">кредит</a></li>
-		</ul>
-		<div>
-			<h1>Доставка</h1>
-			<p>Мы с удовольствием доставим ваш товар прямо к вашему<br> 
-			подъезду совершенно бесплатно! Ведь мы неплохо <br>
-			заработаем, поднимая его на ваш этаж.</p>
-		</div>
-	</section>
-	<section>
-		<h1>О нас</h1>
-		<p>Огромный выбор гаджетов не оставит равнодушным гика, <br>
-		который есть в каждом из нас.</p>
-		<p>Мы можем доставить ваш товар в самые отдаленные точки <br>
-		России! DEVICE работает со многими транспортными компаниями:</p>
+					<ul class="sait-nav">
+						<li><a href="catalog.html">каталог товаров</a>
+							<ul class="catalog-list">
+						<li><a href="#">Виртуальная 
+						реальность</a></li>
+						<li><a href="#">Моноподы 
+						для селфи</a></li>
+						<li><a href="#">Экшн-камеры</a></li>
+						<li><a href="#">Фитнес-браслеты</a></li>
+						<li><a href="#">Умные часы</a></li>
+						<li><a href="#">Квадрокоптеры</a></li>
+							</ul>
+						</li>
+						<li><a href="#">доставка</a></li>
+						<li><a href="#">гарантия</a></li>
+						<li><a href="#">контакты</a></li>
+					</ul>
+					
+				</nav>
+			</header>
 
-		<ul>
-			<li><a href="blank.html">Деловые линии</a></li>
-			<li><a href="blank.html">Автотрейдинг</a></li>
-			<li><a href="blank.html">ЖелДорЭкспедиция</a></li>
-		</ul>
-		<a href="blank.html">подробнее о нас</a>
-	</section>
-	<section>
-		<h1>Контакты</h1>	
-		<p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете <br>
-		проверить работоспособность покупки. Всякое бывает.</p>
 
-		<img src="img/map 1.jpg"> <br>
 
-		<a href="blank.html">напишите нам</a>
+		<!---------MAIN----------->
+			<main class="container">
 
-	</section>
+				<img class="selfie" src="img/slider-1 1.jpg" width="384"
+					height="486" alt="selfie-img">
 
-	<footer>
-		<address>г. Москва, ул. Строителей, 15
-		</address>
-		<a href="blank.html">Войти</a>
-		<a href="blank.html">Сравнить</a>
-		<a href="blank.html">Корзина</a>
-	
-	<ul>
-			<li><a href="blank.html">каталог товаров</a></li>
-			<li><a href="blank.html">доставка</a></li>
-			<li><a href="blank.html">гарантия</a></li>
-			<li><a href="blank.html">контакты</a></li>
-	</ul>
-	<a href="tel+74959595">Тел.: +7 (495) 495-95-95</a>
+				<section class="hit-product">	
+					<h1>Делай селфи, <br>
+					как Бен Стиллер! </h1>
+					<p>Самая длинная палка для селфи доступна в нашем магазине. <br>
+					Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+					<a class="selfie-detalis" href="#">подробнее</a>
+					<span class="selfie-radio">
+						<input type="radio" name="radio" checked>
+						<input type="radio" name="radio">
+						<input type="radio" name="radio">
+					</span>
 
-	<section>
-   
-    <ul>
-      <li>
-        <a href="#">Фейсбук</a>
-      </li>
-      <li>
-        <a href="#">Инстаграм</a>
-      </li>
-      <li>
-        <a href="#">twitter</a>
-      </li>
-    </ul>
-  </section>
-	</footer>
-</main>
+					<div class="hit-product-specifications">
+						<h2>8,5 м</h2>
+						<p>Длина палки</p>
+					
+						<h2>5 кг</h2>
+						<p>Вес палки</p>
+					
+						<h2>Карбон</h2>
+						<p>Материал</p>
+					</div>
+				</section>	
+
+				<section class="hit-product">	
+					<h1>Делай селфи, <br>
+					как Бен Стиллер! </h1>
+					<p>Самая длинная палка для селфи доступна в нашем магазине. <br>
+					Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+					<a class="selfie-detalis" href="#">подробнее</a>
+					<span class="selfie-radio">
+						<input type="radio" name="radio" checked>
+						<input type="radio" name="radio">
+						<input type="radio" name="radio">
+					</span>
+
+					<div class="hit-product-specifications">
+						<h2>8,5 м</h2>
+						<p>Длина палки</p>
+					
+						<h2>5 кг</h2>
+						<p>Вес палки</p>
+					
+						<h2>Карбон</h2>
+						<p>Материал</p>
+					</div>
+				</section>
+
+				<section class="hit-product">	
+					<h1>Делай селфи, <br>
+					как Бен Стиллер! </h1>
+					<p>Самая длинная палка для селфи доступна в нашем магазине. <br>
+					Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+					<a class="selfie-detalis" href="#">подробнее</a>
+					<span class="selfie-radio">
+						<input type="radio" name="radio" checked>
+						<input type="radio" name="radio">
+						<input type="radio" name="radio">
+					</span>
+
+					<div class="hit-product-specifications">
+						<h2>8,5 м</h2>
+						<p>Длина палки</p>
+					
+						<h2>5 кг</h2>
+						<p>Вес палки</p>
+					
+						<h2>Карбон</h2>
+						<p>Материал</p>
+					</div>
+				</section>
+					
+				
+				
+				
+				<section class="product">
+					<h2>каталог товаров</h2>
+
+					<div class="product-img">
+						<img src="img/popular-1.jpg" width="160" height="160" alt="Виртуальная 
+						реальность" background>
+						<img src="img/popular-2.jpg" width="160" height="160" alt="Моноподы 
+						для селфи">
+						<img src="img/popular-3.jpg" width="160" height="160" alt="Экшн-камеры">
+						<img src="img/popular-4.jpg" width="160" height="160" alt="Фитнес-браслеты">
+						<img src="img/popular-5.jpg" width="160" height="160" alt="Умные часы">
+						<img src="img/popular-6.jpg" width="160" height="160" alt="Квадрокоптеры">
+
+					</div>
+					<ul class="product-list">
+						<li><a href="#">Виртуальная 
+						реальность</a></li>
+						<li><a href="#">Моноподы 
+						для селфи</a></li>
+						<li><a href="#">Экшн-камеры</a></li>
+						<li><a href="#">Фитнес-браслеты</a></li>
+						<li><a href="#">Умные часы</a></li>
+						<li><a href="#">Квадрокоптеры</a></li>
+					</ul>
+				</section>
+
+				
+				<div class="features">
+					<ul class="features-list">
+						<li class="features-item"><a href="#">доставка</a></li>
+						<li class="features-item"><a href="#">гарантия</a></li>
+						<li class="features-item"><a href="#">кредит</a></li>
+					</ul>
+					
+					<h2>Доставка</h2>
+					<p>Мы с удовольствием доставим ваш товар прямо к вашему<br> 
+					подъезду совершенно бесплатно! Ведь мы неплохо <br>
+					заработаем, поднимая его на ваш этаж.</p>
+					<img src="img/delivery2.jpg" class="features-icon" alt="delivery">
+				</div>
+				<div class="features">
+					<ul class="features-list">
+						<li class="features-item"><a href="#">доставка</a></li>
+						<li class="features-item"><a href="#">гарантия</a></li>
+						<li class="features-item"><a href="#">кредит</a></li>
+					</ul>
+					
+					<h2>Гарантия</h2>
+					<p>Если из-за возгорания купленного у нас товара у вас сгорит дом — <br>
+						не переживайте, мы выдадим вам новый.<br>
+						Товар, не дом, конечно же.
+					</p>
+					<img src="img/delivery2.jpg" class="features-icon" alt="delivery">
+				</div>
+				<div class="features">
+					<ul class="features-list">
+						<li class="features-item"><a href="#">доставка</a></li>
+						<li class="features-item"><a href="#">гарантия</a></li>
+						<li class="features-item"><a href="#">кредит</a></li>
+
+					</ul>
+					
+					<h2>Кредит</h2>
+					<p>Залезть в долговую яму стало проще! Кредитные консультанты <br>
+					   подберут для вас наиболее выгодные <br>
+					   условия кредита. Выгодные для нашего банка, разумеется.
+					</p>
+					<img src="img/delivery2.jpg" class="features-icon" alt="delivery">
+				</div>
+				
+				<div class="main-logo">
+					<img src="img/logo-1 1.jpg" class="main-logo-img" width="260" height="100" alt="logo">
+					<img src="img/logo-2 1.jpg" class="main-logo-img" width="260" height="100" alt="logo" >
+					<img src="img/logo-3 1.jpg" class="main-logo-img" width="260" height="100" alt="logo">
+					<img src="img/logo-4 1.jpg" class="main-logo-img" width="260" height="100" alt="logo">
+				</div>
+				<section class="info">
+					<h2 >О нас</h2>
+					<p>Огромный выбор гаджетов не оставит равнодушным гика, <br>
+					который есть в каждом из нас.</p>
+					<p>Мы можем доставить ваш товар в самые отдаленные точки <br>
+					России! DEVICE работает со многими транспортными компаниями:</p>
+
+					<ul class="info-list">
+						<li class="info-item"><a href="#">Деловые линии</a></li>
+						<li class="info-item"><a href="#">Автотрейдинг</a></li>
+						<li class="info-item"><a href="#">ЖелДорЭкспедиция</a></li>
+					</ul>
+					<a class="more" href="#">подробнее о нас</a>
+				</section>
+				<section class="contact">
+					<h2>Контакты</h2>	
+					<p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете <br>
+					проверить работоспособность покупки. Всякое бывает.</p>
+
+					<img class="map" src="img/map 1.jpg" width="560" height="222" alt="map"> <br>
+
+					<a class="message" href="#">напишите нам</a>
+
+				</section>
+			</main>
+
+
+		<!---------FOOTER----------->
+			<footer class="footer">
+				<img src="img/-e-logo2.jpg" class="footer-logo" width="163" height="35" alt="logo">
+				<div class="address">г. Москва, ул. Строителей, 15
+				</div>
+				<div class="footer-nav2">
+					<a href="#">Войти</a>
+					<a href="#l">Сравнить</a>
+					<a href="#l">Корзина</a>
+				</div>
+				<ul class="footer-nav">
+					  	<li><a href="#">доставка</a></li>
+						<li><a href="#">гарантия</a></li>
+						<li><a href="#">контакты</a></li>
+				</ul>
+				<a href="tel:+74959595">Тел.: +7 (495) 495-95-95</a>
+
+				<section class="icon">
+			   		<h2>Icon</h2>
+				    <ul class="icon-list">
+				      <li>
+				        <a href="#"><img src="" width="32"  height="32" alt="Фейсбук" ></a>
+				      </li>
+				      <li>
+				        <a href="#"><img src="" width="32"  height="32" alt="Инстаграм"></a>
+				      </li>
+				      <li>
+				        <a href="#"><img src="" width="32"  height="32" alt="twitter"></a>
+				      </li>
+				    </ul>
+				    
+			  	</section>
+			  	<img src="img/Vector.jpg" class="icon-academy" width="30"  height="34" alt="htmlacademy">
+			</footer>
+
   </body>
 </html>
