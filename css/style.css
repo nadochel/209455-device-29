@@ -1,0 +1,262 @@
+/* -----Variables----- */
+
+:root {
+	--basic-black: #000000;
+    --basic-white: #ffffff;
+    --special-yellow: #F7E296; 
+    --special-yellow-dark: #F0C52E;
+    --basic-grey-light: #E5E5E5;
+    --basic-dark:  #363636;
+
+    --special-grey: rgba(0, 0, 0, 0.3);
+/* footer */    
+	--special-yelow-darken: #FFC600;
+	--special-grey-footer: rgba(255, 255, 255, 0.7);
+}
+
+
+/* -----Global----- */
+
+body {
+	min-width: 1160px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+    font-size: 15px;
+	line-height: 20px;
+	color: var(--basic-black);
+	background-color: var(--basic-white);
+	
+  
+
+}
+
+.page a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h2 {
+	font-size: 47px;
+	font-weight: 800;
+	line-height: 57px;
+}
+
+p {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 28px;
+
+}
+/*-----nav----- */
+
+nav {
+	font-size: 15px;
+	line-height: 20px;
+	color: var(--basic-black);
+	background-color: var(--special-yellow); 
+}
+
+.sait-nav, 
+.sait-nav2,
+.catalog-list {
+	list-style: none;
+}
+
+.sait-nav a, 
+.sait-nav2 a,
+.catalog-list a {
+
+	color: var(--basic-black);
+}
+
+
+.sait-nav a:hover,
+.sait-nav a:focus,
+.sait-nav2 a:hover,
+.sait-nav2 a:focus,
+.catolog-list a:hover,
+.catalog-list a:focus {
+
+	background-color: var(--basic-grey-light) ;
+}
+
+.search {
+	color: var(--special-grey)
+}
+
+.sait-nav {
+	font-size: 18px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.catalog-list {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+/* -----MAIN----- */
+
+
+.hit-product h1 {
+	font-size: 47px;
+	font-weight: 800;
+	line-height: 57px;
+
+}
+
+.selfie-detalis {
+	color: var(--basic-black);
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 22px;
+	text-transform: uppercase;
+	background-color: var(--special-yellow-dark);
+}
+
+.hit-product-specifications h2 {
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.hit-product-specifications p {
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.product-img {
+	background-color: var(--special-yellow);
+}
+
+.product-list a {
+	color: var(--basic-black)
+}
+
+.product-list a:hover,
+.product-list a:focus  {
+
+	background-color: var(--basic-grey-light) ;
+}
+
+
+.product-list {
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 22px;
+	list-style: none;
+}
+
+.features {
+	width: 100%;
+	height: 403px;
+	background: linear-gradient( to bottom, var(--basic-white) 115px, var(--basic-grey-light) 115px 403px);
+}
+
+.features-list a {
+	color: var(--basic-black);
+	height: 100%;
+	/*background: linear-gradient( to top, var(--basic-white) 30%, var(--special-yellow) 30% 80%, var(--basic-white) 80% 100%);*/
+	/*background-color: var(--special-yellow);*/
+	/*background-image: url(img/Rectangle3.jpg);*/
+}
+
+.features-list a:hover,
+.features-list a:focus {
+	background-color: var(--basic-black);
+	color: var(--special-yellow);
+}
+
+.features-list {
+	list-style: none;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
+/*.features-item {
+	background-image: url(img/Rectangle3.jpg);
+} */
+
+
+.features-icon {
+	float: right;
+}
+
+.info-list a,
+ a {
+	color: var(--basic-black);
+}
+
+.info-list a:hover,
+.info-list a:focus,
+a:hover,
+a:focus {
+	background-color: var(--basic-grey-light); 
+}
+
+.more:hover,
+.more:focus,
+.message:hover,
+.message:focus {
+	background-color: var(--basic-black); 
+	color: var(--special-yellow);
+}
+
+
+.info-list {
+	list-style: circle;
+}
+
+.more,
+.message {
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
+/*-----FOOTER-----*/
+
+.footer {
+	background-color: var(--basic-dark);  
+	color: var(--basic-white);
+}
+
+.footer a {
+	color: var(--basic-white);
+}
+
+.footer-nav {
+	list-style: none;
+	font-size: 18px;
+	font-weight: 800;
+	
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.footer-nav2 a {
+	color: var(--special-grey-footer);
+}
+
+ul.footer-nav li,
+ul.icon-list li {
+	display: inline;
+}
+
+.icon-list{
+	text-align: center;
+}
+
+.icon-academy {
+	float: right;
+	
+}
